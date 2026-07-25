@@ -5,8 +5,8 @@ jobs:
     name: DigitalFlavio
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4.4.0
+      - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 20
+          node-version: 20.20.2
       - run: (yarn github && echo "DigitalFlavio approves this PR") || (echo "DigitalFlavio has fainted"; exit 1)

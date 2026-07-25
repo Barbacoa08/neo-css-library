@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4.4.0
+      - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 20
+          node-version: 20.20.2
       - name: build
         run: yarn github
       - name: start server
@@ -34,7 +34,7 @@ jobs:
             yarn
             yarn playwright test
       - name: upload artifacts on test failure
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         if: failure()
         with:
           name: playwright-report
