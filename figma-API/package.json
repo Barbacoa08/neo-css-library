@@ -12,14 +12,14 @@
 	},
 	"license": "UNLICENSED",
 	"devDependencies": {
-		"@babel/core": "7.26.0",
-		"@babel/preset-env": "7.26.0",
-		"axios": "1.7.7",
+		"@babel/core": "7.29.7",
+		"@babel/preset-env": "7.29.7",
+		"axios": "1.20.0",
 		"babel-jest": "29.7.0",
-		"dotenv": "16.4.5",
-		"jest-fetch-mock": "3.0.3",
+		"dotenv": "16.6.1",
+		"jest-fetch-mock": "3.2.0",
 		"replace-in-file": "7.2.0",
-		"shx": "0.3.4",
+		"shx": "0.4.0",
 		"webfonts-generator": "0.4.0"
 	},
 	"dependencies": {
