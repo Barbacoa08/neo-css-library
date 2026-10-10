@@ -21,6 +21,6 @@
 	},
 	"workspaces": ["css-library", "figma-api", "staging"],
 	"devDependencies": {
-		"start-server-and-test": "2.0.8"
+		"start-server-and-test": "2.1.5"
 	}
 }
